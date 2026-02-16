@@ -1,0 +1,380 @@
+
+.heading{
+  background-color: #1f9c00;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+}
+
+.symbol{
+    background-color: rgb(245, 239, 239);
+    border-radius:30px ;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+.p-symbol{
+  padding-left: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  font-weight: bolder;
+}
+
+.head{
+  font-family: arial;
+}
+
+
+.p-head{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+  
+}
+
+.help-div{
+  margin-left: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.help{
+  
+  color: white;
+  font-size: large;
+}
+
+.one{
+       padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 5px;
+        background-color:  #1f9c00 ;
+        border: none;
+        padding-right: 20px;
+        border-radius: 3px;
+        transition: 1s;
+        
+        
+}
+.one:hover{
+  background-color: #154d07;
+}
+
+.one:active{
+  opacity: 0.2;
+}
+
+.two{
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 5px;
+        background-color: #1f9c00 ;
+        border: none;
+        padding-right: 20px;
+        border-radius: 3px;
+        transition: 1s;
+}
+
+.two:hover{
+  background-color: #154d07;
+}
+
+.two:active{
+  opacity: 0.2;
+}
+.Ray{
+  color: white;
+  font-size: large;
+  
+}
+
+.part-two{
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+
+}
+
+.profile-picture-div{
+  margin-right: 100px;
+}
+
+.profile-picture{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    margin-left: 80px;
+    object-fit: cover;
+
+}
+
+.profile-info{
+  color: white;
+  font-family: Arial;
+  width: 550px;
+  font-size: 25px;
+  border-style: solid;
+  border-color: #1f9c00 ;
+  border-radius: 10px;
+  padding:20px ;
+
+}
+
+
+.part-three-div{
+ height: 600px;
+ width: 1200px;
+ display: grid;
+ grid-template-columns: 400px 400px 1fr ;
+ background-color: #1f9c00;
+ border-radius: 15px;
+ margin-left: 68px;
+ margin-top: 0px;
+ column-gap: 0px;
+ row-gap: 0px;
+ justify-content:center ;
+ border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (max-width:600px) {grid-template-columns: 1fr 1fr;}
+
+.part-three{
+  height: 295px;
+  
+}
+
+.html-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.html{
+  width: 150px;
+  height: 100px;
+  transition: 1s;
+}
+
+.html:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 170px;
+   height: 110px;
+}
+
+
+.css-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.css{
+  width: 150px;
+  height: 100px;
+  transition: 1s;
+}
+
+  .css:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 170px;
+   height: 110px;
+}
+
+  
+.java-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.java{
+  width: 150px;
+  height: 100px;
+  transition: 1s;
+}
+
+  .java:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 170px;
+   height: 110px;
+}
+
+.python-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.python{
+  width: 150px;
+  height: 100px;
+  transition: 1s;
+}
+
+.python:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 170px;
+   height: 110px;
+}
+
+  .react-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.react{
+  width: 150px;
+  height: 100px;
+  transition: 1s;
+}
+
+.react:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 170px;
+   height: 110px;
+}
+
+.mongo-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.mongo{
+  width: 150px;
+  height: 100px;
+  transition: 1s;
+}
+
+.mongo:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 170px;
+   height: 110px;
+}
+
+.my-skills{
+  background-color: #154d07;
+  margin-top: 50px;
+  width: 1200px;
+  margin-left: 68px;
+  border-radius: px;
+  margin-bottom: -15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-skills-word{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.last-part-div{
+  border-top-style: solid;
+   border-bottom-style: solid;
+  color: #1f9c00;
+  margin-top: 50px;
+  width: 1350px;
+  height: 500px;
+}
+
+.last-part{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 470px;
+  margin-top: 70px;
+}
+
+.icons-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  width: 700px;
+  margin-left: 330px;
+  margin-top: 150px;
+}
+
+.icons{
+  width: 60px;
+  transition: 1s;
+}
+
+.youtube{
+  width: 60px;
+  transition: 1s;
+}
+
+.tiktok{
+  width: 60px;
+  transition: 1s;
+}
+
+.icons:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 80px;
+}
+
+.icons:active{
+ width: 60px;
+ transition: 0.5s;
+}
+
+.tiktok:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 80px;
+}
+
+.tiktok:active{
+ width: 60px;
+ transition: 0.5s;
+}
+
+.youtube:hover{
+  cursor: pointer;
+   opacity: o.1;
+   width: 80px;
+}
+
+.youtube:active{
+ width: 60px;
+ transition: 0.5s;
+}
